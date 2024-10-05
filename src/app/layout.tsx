@@ -7,7 +7,7 @@ export default function Layout({ children }: PropsWithChildren) {
   return (
     <html lang="en">
       <head>
-        <title>241002</title>
+        <title>test</title>
       </head>
       <body>
         <Providers>{children}</Providers>

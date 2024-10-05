@@ -1,8 +1,10 @@
 {
   "private": true,
-  "name": "@this-project/my-trash-bin__241002",
+  "name": "@mjy-blog/theme-example-ui-library",
   "version": "0.1.0",
   "scripts": {
+    "build": "sh build.sh",
+    "publish": "npm run build && cd dist && npm publish",
     "dev": "next dev"
   },
   "dependencies": {
@@ -19,12 +21,15 @@
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7"
   },
-  "devDependencies": {
-    "@types/node": "22.7.4",
+  "peerDependencies": {
     "@types/react": "^18.3.10",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.13",
+    "tailwindcss": "^3.4.13"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.4",
+    "package.json-minifier": "^0.0.4",
     "typescript": "5.6.2"
   }
 }
