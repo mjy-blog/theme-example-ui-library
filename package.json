@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@mjy-blog/theme-example-ui-library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "build": "sh build.sh",
     "publish": "npm run build && cd dist && npm publish",
@@ -30,6 +30,7 @@
   "devDependencies": {
     "@types/node": "22.7.4",
     "package.json-minifier": "^0.0.4",
+    "tsc-alias": "^1.8.10",
     "typescript": "5.6.2"
   }
 }
