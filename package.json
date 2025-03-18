@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@mjy-blog/theme-example-ui-library",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "scripts": {
     "build": "sh build.sh",
     "publish": "npm run build && cd dist && npm publish",
@@ -22,7 +22,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "peerDependencies": {
-    "@types/react": "^18.3.10",
+    "@types/react": "^19",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13"
